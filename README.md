@@ -14,3 +14,7 @@ Added a **Contact Me** section to the portfolio page and linked it with CSS file
 
 Created a basic page to understand CSS selector concepts.
 
+4. **CSSdiv - [Live Site](https://alaka03aj.github.io/Web-Dev-22/CSSdiv/)**
+
+Basic pattern made using concepts like *margin*, *padding* etc.
+

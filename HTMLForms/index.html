@@ -88,24 +88,24 @@
     <hr>
     <h3>Contact Me</h3>
     <p><a href="mailto:aj03temp@gmail.com">Mail</a></p>
-    <form action="mailto:aj03temp@gmail.com" method="post" enctype="text/plain">
-        <label for="">Your Name: </label>
-        <input type="text" name="name" placeholder="Name">
+    <form action="mailto:aj03temp@gmail.com" method="get" enctype="text/plain">
+        <label>Your Name: </label>
+        <input type="text" name="name" id="name" placeholder="Name">
         <br>
         <br>
-        <label for="">Your Email: </label>
-        <input type="email" name="email" id="" placeholder="Email">
+        <label>Your Email: </label>
+        <input type="email" name="email" id="email" placeholder="Email">
         <br>
         <br>
-        <label for="">Your Message: </label><br>
-        <textarea name="msg" id="" cols="30" rows="10"></textarea>
+        <label>Your Message: </label><br>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
         <br>
         <br>
-        <label for="">Do you want to sign for daily newsletters?</label>
-        <input type="checkbox" name="news" id="">
+        <label>Do you want to sign for daily newsletters?</label>
+        <input type="checkbox" name="news" id="news">
         <br>
         <br>
-        <input type="submit" value="Submit">
+        <input type="submit" name="submit" value="Submit">
     </form>
 </body>
 </html>

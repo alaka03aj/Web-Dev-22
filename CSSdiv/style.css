@@ -1,0 +1,31 @@
+.box-one{
+    /* height: 10vh; */
+    background-color: red;
+    border: solid;
+    height: 200px;
+    width: 200px;
+    border-width: 10px;
+    /* margin: 10px; */
+    padding: 20px;
+}
+body{
+    margin: 0px;
+}
+.midbox{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 20px;
+    margin: 0 0 0 260px;
+
+}
+.botdiv{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 10px;
+    margin: 0px;
+    margin: 0 0 0 500px;
+}

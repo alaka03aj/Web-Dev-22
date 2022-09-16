@@ -18,3 +18,7 @@ Created a basic page to understand CSS selector concepts.
 
 Basic pattern made using concepts like *margin*, *padding* etc.
 
+5. **Responsive Web Design - [Live Site](https://alaka03aj.github.io/Web-Dev-22/ResponsiveWebDesign/Project1/)**
+
+Took a Responsive Web Design course from Sololearn and created a website as a part of that.
+

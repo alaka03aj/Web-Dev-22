@@ -1,9 +1,9 @@
 # Web-Dev-22
 
 ## The Complete 2022 Web Development Bootcamp Resources and Projects
-| Sl No | Title | Live Site |
-|-------|-------|-----------|
-|1.     |**HTMLTables**| **[Click Here](https://alaka03aj.github.io/Web-Dev-22/HTMLTables/)**|
+| Sl No | Title | Description | Live Site |
+|-------|-------|-------------|-----------|
+|1.     |**HTMLTables**| Created a *very basic portfolio* with just table tag in html.| **[Click Here](https://alaka03aj.github.io/Web-Dev-22/HTMLTables/)**|
 
 Created a *very basic portfolio* with just table tag in html.
 

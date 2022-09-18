@@ -6,14 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(function(){
+            $(".btn").click(function(){
+                $(".submenu").slideToggle(500);
+            });
+        });
+    </script>
     <title>Landing Page</title>
 </head>
 <body>
+
     <header>
         <div class="container-1">
             <h1>Awesome App</h1>
             <h3>This app will change your life!</h3>
             <a class="btn">Download Now</a>
+            <div class="submenu">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+            </div>
         </div>
     </header>
       

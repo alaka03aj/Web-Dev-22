@@ -103,6 +103,26 @@ footer li a{
 footer li a:hover{
   color: #FFFFFF;
 }
+.submenu{
+  left: 50%;
+  transform: translate(-50%,0);
+  position: absolute;
+  background-color: #549DA0;
+  min-width: 160px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  display: none;
+}
+.submenu a{
+  text-decoration: none;
+  display: block;
+  padding: 12px 16px;
+  color: white;
+}
+.submenu a:hover{
+  background-color: #468486;
+}
 @media screen and (max-width: 480px) {
   .btn{
     display: block;
@@ -127,5 +147,14 @@ footer li a:hover{
   blockquote cite{
     font-size: 14px;
   }
+  footer{
+    padding: 30px 0 10px 0;
+  }
+  footer li a{
+    font-size: 14px;
+  }
+  .submenu{
+    width: 100%;
+    position: relative;
+  }
 }
-

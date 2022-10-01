@@ -5,25 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>MARS</title>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <img class="logo-pic" src="https://cdn-icons-png.flaticon.com/512/749/749487.png?w=740&t=st=1664214287~exp=1664214887~hmac=db6db05e9a73d1ea9f32909e35b3ff296a09bfbfdf7f170f842e070538b239d3" alt="">
-            <h1>MARS</h1>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <div class="log-pic">
+                    <img class="logo-pic" src="images/space_black.png" alt="">
+                </div>
+                <h1>MARS</h1>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#plans">PLANS</a></li>
+                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-sharp fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <!-- Landing Page Content -->
+        <div class="main-content">
+            <div class="main-title">
+                <h1 class="heading">The <span> FUTURE </span>is <span>HERE</span>!</h1>
+                <p>Tired of living in the same planet as all the hoomans? <br> Book a ticket to MARS now!</p>
+                <a href="#"><b>Buy A Ticket!</b></a>
+            </div>
         </div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="plans" id="plans">
+        <h1 class="heading">Plans</h1>
+        <p id="plans-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="row">
+            <div class="col">
+                <h3>Create an irresistable bait</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Nibh ipsum consequat nisl vel pretium lectus.</p>
+            </div>
+            <div class="col">
+                <h3>Trick them into coming to Mars</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Nibh ipsum consequat nisl vel pretium lectus.</p>
+            </div>
+            <div class="col">
+                <h3>Kill them</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Nibh ipsum consequat nisl vel pretium lectus.</p>
+            </div>
         </div>
-    </nav>
-    <img src="night-obj.png" alt="" id="bg-img">
+    </section>
+
+    <!-- Features Page -->
+    <section class="features" id="features">
+        <div class="name">
+            <h3 class="heading">Features</h3>
+            <p id="name-p">Send your name to MARS on NASA's next flight to the Red Planet and let the aliens know that you exist. Cuz no one actually cares about you in Earth anyway :) </p>
+                <br>
+            <a href="https://mars.nasa.gov/participate/send-your-name/future" target="_blank">Sign Up!</a>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="contact">
+
+    </section>
+
+    <!-- Nav Bar For Mobiles -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>

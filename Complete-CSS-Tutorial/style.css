@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   box-sizing: border-box;
 }
@@ -28,4 +29,36 @@ body {
 .main-header{
   background: #2ddf5c;
   padding: 8px 16px;
+=======
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+#product-overview {
+  background: #ff1b68;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+}
+
+
+.section-title {
+  color: #2ddf5c;
+}
+
+/* has more priority than h1 */
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+
+.main-header{
+  background: #2ddf5c;
+  padding: 8px 16px;
+>>>>>>> eeae2dcb67c522726bb6c0a9daeaea3d60d9571b
 }

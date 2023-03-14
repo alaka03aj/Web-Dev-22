@@ -34,7 +34,9 @@
             <div class="main-title">
                 <h1 class="heading">The <span> FUTURE </span>is <span>HERE</span>!</h1>
                 <p>Tired of living in the same planet as all the hoomans? <br> Book a ticket to MARS now!</p>
-                <a href="#"><b>Buy A Ticket!</b></a>
+                <a href="#" onclick="fool()"><b>Buy A Ticket!</b></a>
+                <br>
+                <p id="fool-text"></p>
             </div>
         </div>
     </section>
@@ -93,6 +95,10 @@
         }
         function hideMenu(){
             navLinks.style.right = "-200px";
+        }
+
+        function fool(){
+            document.getElementById("fool-text").innerHTML = "Lol, who said you can buy them :p";
         }
     </script>
 </body>

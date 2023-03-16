@@ -1,64 +1,61 @@
-<<<<<<< HEAD
 *{
   box-sizing: border-box;
 }
-
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
-
 #product-overview {
   background: #ff1b68;
   width: 200px;
   height: 100px;
   padding: 10px;
 }
-
-
 .section-title {
   color: #2ddf5c;
 }
-
 /* has more priority than h1 */
 #product-overview h1 {
   color: white;
   font-family: "Anton", sans-serif;
 }
-
 .main-header{
   background: #2ddf5c;
   padding: 8px 16px;
-=======
-*{
-  box-sizing: border-box;
 }
-
-body {
-  font-family: "Montserrat", sans-serif;
+/* selects direct div child */
+.main-header > div{
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-nav{
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 200px);
+  vertical-align: middle;
+}
+.main-nav__items{
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
-
-#product-overview {
-  background: #ff1b68;
-  width: 200px;
-  height: 100px;
-  padding: 10px;
+.main-nav__item{
+  display: inline-block;
+  margin: 0 16px;
 }
-
-
-.section-title {
-  color: #2ddf5c;
+.main-nav__item a{
+  text-decoration: none;
+  color: #0e4f1f;
 }
-
-/* has more priority than h1 */
-#product-overview h1 {
-  color: white;
-  font-family: "Anton", sans-serif;
+.main-nav__item a:hover{
+  color: aliceblue;
 }
-
-.main-header{
-  background: #2ddf5c;
-  padding: 8px 16px;
->>>>>>> eeae2dcb67c522726bb6c0a9daeaea3d60d9571b
+.main-nav__item a:active{
+  color: rgb(0, 136, 255);
+}
+.brand{
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 32px;
 }
